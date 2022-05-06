@@ -1,0 +1,93 @@
+@media (max-width:1024px) {
+    /* sección quiénes somos */
+}
+
+@media (max-width: 991px) {
+
+    /* clases personalizadas */
+    .text-content{
+        width: 100%;
+    }
+    /* marca navbar */
+    .navigation-wrap .navbar-brand img{
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);  
+    }
+
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+
+    /* diseño banner */
+
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    /* diseño carousel */
+
+    .opiniones-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    /* css personalizado */
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    /* top banner */
+
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    /* sección relato */
+
+    .relato-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    /* diseño carousel */
+
+    .opiniones-section .carousel-item {
+        padding: 11rem 3.125rem;
+    }
+
+    /* newsletter/contacto */
+
+    .newsletter{
+        width: 75%;
+    }
+
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    /* footer */
+
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+
+}
+
+@media (max-width: 330px) {
+    /* diseño carousel */
+
+    .opiniones-section .carousel-item {
+        padding: 13rem 3.125rem;
+    }
+}
